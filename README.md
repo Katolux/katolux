@@ -1,85 +1,45 @@
-# 👋 Hi, I'm Alfonso – transitioning into Tech
+# 👋 Hi, I'm Alfonso
 
-I'm a 36-year-old developer-in-training based in Switzerland, currently transitioning into the tech world after a diverse international career in gastronomy, maritime operations, and technical roles in banking and Apple support.
+I build practical automation systems and backend tools — often where software meets real-world operations.
 
-My journey into programming comes from a lifelong curiosity and a desire to build practical tools that improve everyday life. I’m now developing projects that combine automation, IoT, clean design, and problem-solving.
+Based in Switzerland 🇨🇭
 
----
+## 🔧 Focus Areas
+- Backend development (Python)
+- Data & persistence (SQL / SQLite, structured data modeling)
+- Automation & reliability (schedulers, state, fault tolerance)
+- Applied IoT systems (sensor ingestion, control logic, dashboards)
 
-## 🔧 What I'm Working On
+## 🌱 Featured Projects
 
-### 🌱 **Automated Watering System (IoT / Arduino / Sensors / API Integration)**
-A complete irrigation controller for my 70 m² garden, using:
-- Arduino Uno  
-- Capacitive soil moisture sensors  
-- DHT22 temperature & humidity  
-- Relay-based pump control  
-- Live weather forecast integration (Open-Meteo API)  
-- Smart logic with thresholds, rain prediction, and redundancy  
+### GardenHUB — Autonomous IoT Watering System
+A real-world irrigation controller for a ~70 m² garden.  
+Raspberry Pi backend + sensor nodes + weather-aware decision logic + historical logging.
 
-This project is part of my learning roadmap and will grow into a full IoT system with data logging and remote dashboard access.
+**Highlights**
+- Flask backend + SQLite logging
+- Sensor ingestion from ESP32 nodes (HTTP POST; MQTT planned)
+- Automation logic for multi-zone watering
+- Weather integration (Open-Meteo)
+- Built to evolve into predictive optimization (ML-assisted irrigation)
 
----
+### InventorySync — Excel-Based Inventory App
+A cross-device inventory tool that imports an Excel template, generates a structured count session, and exports an updated Excel report (timestamped), designed for real operational use.
 
-## 🚀 My Tech Goals
+**Highlights**
+- Excel import/export with validation
+- Clean data model (items, locations, sessions, adjustments)
+- Tablet-friendly UI for rapid counting
+- Works across domains (kitchens, workshops, retail, maintenance stock)
 
-I'm building a foundation in:
+## 📚 Currently Expanding
+- API design patterns & testing
+- Data workflows (pandas, reporting, quality checks)
+- Architecture: modular services, messaging, and resilience
+- Swiss-market practical tooling (documentation, maintainability, real constraints)
 
-- Python (data handling, automation, APIs)
-- Arduino C++ and embedded logic
-- GitHub workflow
-- IoT systems
-- Basic backend design
-- Software architecture for automation tools
-
-My aim is to move into an entry-level IT/tech role in Switzerland where I can grow long-term, continue learning, and balance career with family life.
-
----
-
-## 🧠 My Background (Short Version)
-
-Before transitioning into tech, I worked in:
-- **Gastronomy** (15 years — professional kitchens, leadership, planning)
-- **Maritime industry** (licensed skipper, worldwide operations)
-- **Banking** (ISO 20022 XML remittance processing, file validation workflow)
-- **Apple Technical Support** (hardware + software troubleshooting)
-
-This mix taught me:
-- structured thinking  
-- crisis management  
-- problem-solving under pressure  
-- adaptability  
-- working with complex systems  
-
-All of these now help me approach coding with clarity and logic.
-
----
-
-## 📈 Currently Learning
-
-- Python (core, projects, automation)
-- SQL basics
-- APIs & JSON handling
-- Arduino C++ and sensor integration
-- Git/GitHub best practices
-- Building a professional tech portfolio
-
----
-
-## 🎯 What I'm Looking For
-
-- Junior / entry-level roles in IT, automation, QA, backend basics, or support engineering  
-- Projects where I can learn while contributing real value  
-- Opportunities to transition into tech full-time  
-
-If you think my profile could be a fit, feel free to reach out.
-
----
+## 🧠 Background (short)
+Experience across operations-heavy environments (hospitality, maritime, technical support) with a strong focus on systems, process reliability, and execution.
 
 ## 📫 Contact
-
-- **GitHub:** @katolux  
-
----
-
-Thanks for visiting my profile, and feel free to explore my projects!  
+GitHub: @Katolux
