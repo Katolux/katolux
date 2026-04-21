@@ -23,14 +23,15 @@ Raspberry Pi backend + sensor nodes + weather-aware decision logic + historical 
 - Weather integration (Open-Meteo)
 - Built to evolve into predictive optimization (ML-assisted irrigation)
 
-### InventorySync — Excel-Based Inventory App
-A cross-device inventory tool that imports an Excel template, generates a structured count session, and exports an updated Excel report (timestamped), designed for real operational use.
+### KalkuChef — Recipe Cost Calculator
+A small front-end web app for calculating recipe cost, portion cost, and selling price using food cost % and factor-based pricing.
 
 **Highlights**
-- Excel import/export with validation
-- Clean data model (items, locations, sessions, adjustments)
-- Tablet-friendly UI for rapid counting
-- Works across domains (kitchens, workshops, retail, maintenance stock)
+
+- Real-world gastro use case
+- Unit conversion (g/kg, ml/dl/L)
+- Responsive design
+- Clean modular JavaScript structure
 
 ## 📚 Currently Expanding
 - API design patterns & testing
